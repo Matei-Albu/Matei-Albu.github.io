@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matei Albu - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="constant">
+            <h1>Hello, I am Matei Albu!</h1>
+        </div>
+    </header>
+
+    <div class="blue-bar"></div>
+    <div class="header-image-container">
+        <img src="./mateialbu.png" alt="Your Image Description" width="300" height="366" class="profile-image">
+    </div>
+
+    <h2>My Projects</h2>
+
+    <section class="pro">
+        <div class="container">
+
+            <div class="project">
+                <h3>Song Finder</h3>
+                <p>
+                    Song Finder is a dynamic and interactive web application that allows users to discover songs based on lyrics or obtain lyrics by providing the artist and song name. Built using Python, Flask, Genius API, HTML and CSS.
+
+                </p>
+            </div>
+
+            <div class="project">
+                <h3>Image Filters</h3>
+                <p>
+                    This program replicates core features of image editing softwares that allow you to add image filters. This program offers functionalities such as greyscale conversion, compression, mirroring, color inversion, and a stripe patterns. 
+
+                </p>
+
+                <a href="https://github.com/Matei-Albu?tab=repositories" class="btn btn-projects">View My Projects</a>
+            </div>
+            
+            <div class="project">
+                <h3>Classic Arcade Games</h3>
+                <p>
+                    My interest in game development led to me creating a few classic arcade games such as Pong, Space Invaders, and Atari Breakout. These games were all made using C++ and the SFML graphics library.
+
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <section class="about-me">
+        <div class="constant">
+            <h2>About Me</h2>
+            <p class="abtme"> 
+                I'm an ambitious and driven computer science student at McMaster University, fueled by my passion for learning. I enjoy being challenged and I possess a strong work ethic that helps me overcome these challenges. Some of my hobbies include watching and playing basketball, soccer, playing video games, and listening to music. I am also very passionate about fundraising, having helped raise over $20,000 in my years of high school. In an ever-changing technological society, I find joy in exploring new technologies and thinking of different ways to implement or make use of them in my projects.        </p>
+        </div>
+    </section>
+
+    <div id="overlay">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-me-form"; reset()>
+            <!-- Replace 'your_access_key' with your actual access key from Web3Forms -->
+            <input type="hidden" name="access_key" value="17154ce3-2567-48ec-b796-478db02bdbf7">
+            <h1 id="contact-form" class="contact-form">Contact Me</h1>
+        
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Your name">
+            <small class="error"></small>
+        
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Your email">
+            <small class="error"></small>
+        
+            <label for="message"></label>
+            <textarea id="message" name="message" placeholder="Your message" rows="6"></textarea>
+            <small class="error"></small>
+        
+            <div class="center">
+                <input type="submit" class="btn" value="Send Message">
+                <p id="success"></p>
+            </div>
+        </form>
+    </div>
+
+
+
+    <footer>
+        <div class="moreinfo">
+            <p> </p>
+        </div>
+    </footer>
+
+</body>
+</html>
